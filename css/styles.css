@@ -688,6 +688,7 @@ fill: #f4f4fd;
 
 
 .footer-text-email {
+
         margin-bottom: 16px;
         font-weight: 500;
         font-size: 16px;
@@ -763,9 +764,11 @@ color: #ffffff;
         background-color: #4D5AE5;
         border: none;
         border-radius: 4px;
+        
  }
 
 .footer-icons-email {
+        
         margin-left: 16px;
 }
 
