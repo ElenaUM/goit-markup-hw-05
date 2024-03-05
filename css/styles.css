@@ -715,7 +715,7 @@ fill: #f4f4fd;
 
 .form-input {
 
-        position: relative;
+ position: relative;
 width: 264px;
 height: 40px;
 border: 1px solid #ffffff;
@@ -733,6 +733,7 @@ margin-right: 24px;
 .form-input::placeholder {
         color #ffffff;
 }
+
 
 .form-button{
      
@@ -768,11 +769,9 @@ z-index: 1000209;
  width: 100%;
  height: 100%;
  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-
 background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
-
  opacity: 0;
  visibility: hidden;
  transition: opacity 250ms linear, visibility 250ms;
@@ -792,7 +791,6 @@ background-repeat: no-repeat;
         width: 408px;
         min-height: 584px;
         padding: 72px 24px 24px 24px;
-     
         background-color: #fafafa;
         border-radius: 4px;
         fill: #fcfcfc;
