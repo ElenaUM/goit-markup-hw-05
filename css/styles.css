@@ -730,10 +730,11 @@ margin-right: 24px;
 
 } 
 
+.form-input::placeholder {
+        color #ffffff;
+}
 
-
-
- .form-button{
+.form-button{
      
         display: flex; 
         min-width: 165px;
