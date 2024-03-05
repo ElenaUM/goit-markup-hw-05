@@ -708,8 +708,7 @@ fill: #f4f4fd;
 
 .form {
         display: flex;
-        /* column-gap: 24px;
-         */
+        gap: 24px;
 } 
 
  /* .form-label {
@@ -730,7 +729,7 @@ fill: #f4f4fd;
 .form-input {
 
         position: relative;
-min-width: 264px;
+width: 264px;
 height: 40px;
 border: 1px solid #ffffff;
 background-color: transparent;
@@ -760,8 +759,8 @@ margin-right: 24px;
 
 
  .form-button{
-        position: relative;
-        /* display: flex; */
+        /* position: relative; */
+        display: flex; 
         min-width: 165px;
         height: 40px;
         justify-content: center;
