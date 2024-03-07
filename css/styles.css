@@ -905,8 +905,43 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
 }
 
 
-.modal-icons-person,
-.modal-icons-phone,
+.modal-icons-person {
+        position: absolute;
+        top: 50%;
+        left: 16px;
+        margin-right: 4px;
+        transform: translateY(-50%);
+        fill: #2E2F42;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.modal-icons-person:focus {
+        outline: transparent;  
+        fill: #4D5AE5;
+}
+
+
+
+
+.modal-icons-phone {
+        position: absolute;
+        top: 50%;
+        left: 16px;
+        margin-right: 4px;
+        transform: translateY(-50%);
+        fill: #2E2F42;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.modal-icons-phone:focus {
+        outline: transparent;
+        fill: #4D5AE5;
+}
+
+
+
 .modal-icons-email {
         position: absolute;
         top: 50%;
@@ -918,10 +953,8 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
 }
 
 
-.modal-icons-person,
-.modal-icons-phone,
 .modal-icons-email:focus {
-        outline: transparent;  
+        outline: transparent;
         fill: #4D5AE5;
 }
 
