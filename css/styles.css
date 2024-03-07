@@ -1019,7 +1019,7 @@ outline: transparent;
 .visually-hidden:checked + .contacts-form-checkbox-lable .contacts-form-own-checkbox {
        background-color: #404BBF;
        fill: #f4f4fd;
-       border-color: #404BBF;
+       border: none;
 }
  
 
